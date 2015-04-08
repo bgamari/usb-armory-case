@@ -44,5 +44,3 @@ module case() {
 
 case();
 //color("blue") cube(board, center=true);
-
-//pill([100, 20]);
