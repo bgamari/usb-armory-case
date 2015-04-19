@@ -1,4 +1,6 @@
 # USB Armory keychain
 
+![Rendering of model](render.png)
+
 This is a 3D printable case for the
 [USB Armory](https://github.com/inversepath/usbarmory).
