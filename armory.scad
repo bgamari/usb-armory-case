@@ -42,5 +42,12 @@ module case() {
     }
 }
 
+module board() {
+     conn_len = 0.3*inch;
+     cube(board, center=true);
+     translate([-conn_len,0,0])
+     cube([board[0]+conn_len, 0.45*inch, 1.4], center=true);
+}
+
 case();
-//color("blue") cube(board, center=true);
+//color("black") board();
