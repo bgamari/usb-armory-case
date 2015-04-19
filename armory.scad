@@ -49,5 +49,14 @@ module board() {
      cube([board[0]+conn_len, 0.45*inch, 1.4], center=true);
 }
 
-case();
-//color("black") board();
+module print() {
+    rotate([0,-90,0]) case();
+}
+
+module assembly() {
+     case();
+     color("black") board();
+}
+
+print();
+//assembly();
